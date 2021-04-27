@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Małgorzata Worach - moja pierwsza strona</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w==" crossorigin="anonymous" />
+    <link href="css/style.css" rel="stylesheet">
+    <link href="css/table.css" rel="stylesheet">
+    <link href="css/article.css" rel="stylesheet">
+    <link href="css/navigation.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,700;1,400&display=swap"
+        rel="stylesheet">
+    <script defer src="js/script.js"></script>
+</head>
+
+<body class="body">
+    <header>
+        <h1 class="header">Cześć wszystkim!</h1>
+    </header>
+    <h2>Nazywam się Małgorzata Worach</h2>
+    <nav class="navigation">
+        <h3 class ="navigation__header">NAWIGUJ PO TEJ STRONIE:</h3>
+        <ul class="navigation__list">
+            <li class="navigation__listItem"><a class="navigation__link" href="#education">WYKSZTAŁCENIE</a></li>
+            <li class="navigation__listItem"><a class="navigation__link" href="#programming">DLACZEGO PROGRAMOWANIE?</a></li>
+            <li class="navigation__listItem"><a class="navigation__link" href="#passions">ZAINTERESOWANIA</a></li>
+            <li class="navigation__listItem"><a class="navigation__link" href="#caption">MOJE ULUBIONE PIOSENKI</a></li>
+        </ul>
+    </nav>
+    <p><img class="photo" width="200" src="images/M.WORACH.jpg" alt="Małgorzata Worach">
+    <p><button class="button__hidePhoto">Schowaj zdjęcie</button></p>
+    <main>
+        <article class="article">
+            <h3 id="education">WYKSZTAŁCENIE</h3>
+            <p>W 2018 roku ukończyłam studia licencjackie na kierunku <em>ekonomia</em> na Uniwersytecie Jagiellońskim w
+                Krakowie. W 2020
+                roku obroniłam pracę licencjacką na kierunku rosjoznawstwo, również na UJ.</p>
+            <h3 id="programming">DLACZEGO PROGRAMOWANIE?</h3>
+            <p>Od jakiegoś czasu coraz częściej spotykałam się z opinią, że programowanie jest interesującym zajęciem i
+                nie jest zarezerwowane wyłącznie dla ścisłych umysłów. Po 1,5 roku pracy w finansach stwierdziłam, że
+                chciałabym
+                spróbować swoich sił w nowej dziedzinie. Jest to dla mnie duże wyzwanie, ponieważ do tej pory miałam
+                niewielką styczność ze światem IT, jednak ciekawość i chęć poszerzenia własnych kompetencji popchnęła
+                mnie w kierunku tego kursu. W zasadzie mail z informacją o rozpoczęciu kursu znalazł się na mojej
+                skrzynce mailowej w jakiś magiczny sposób, ale przekonał mnie, że być może to najlepszy czas, aby
+                rozpocząć przygodę z programowaniem. No więc, cóż... do dzieła!
+            </p>
+            <h3 id="passions">ZAINTERESOWANIA</h3>
+            <p>Moją największą pasją jest kultura krajów byłego <span class="article__paragraph--ZSRR">Związku Radzieckiego.</span> Od kilku
+                lat
+                uczę się języka rosyjskiego i
+                staram się podróżować po Europie Wschodniej.
+                <br>W wolnym czasie czytam literaturę dokumentalną, haftuję, piekę i pracuję z gliną samoutwardzalną.
+                Uwielbiam jazdę rowerem i turystykę pieszą. Słucham duuużo muzyki.
+            </p>
+            <p>
+                <section><table class="table">
+                    <caption id="table" class="table__caption">MOJE ULUBIONE PIOSENKI</caption>
+                    <thead>
+                        <tr class="table__row">
+                            <th class="table__cell table__header" scope="col">Tytuł</th>
+                            <th class="table__cell table__header" scope="col">Wykonawca</th>
+                            <th class="table__cell table__header" scope="col">Album</th>
+                            <th class="table__cell table__header" scope="col">Rok</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr class="table__row">
+                            <th class="table__cell table__header" scope="row"><a rel="noreferrer noopener" target="_blank"
+                                    href="https://www.youtube.com/watch?v=07FdNR6ikHI"
+                                    title="Kliknij, aby otworzyć w nowej karcie, w serwisie YouTube">Heavy Wave</a></th>
+                            <td class="table__cell">Motorama</td>
+                            <td class="table__cell">Poverty</td>
+                            <td class="table__cell">2015</td>
+                        </tr>
+                        <tr class="table__row">
+                            <th class="table__cell table__header" scope="row"><a rel="noreferrer noopener" target="_blank"
+                                    href="https://www.youtube.com/watch?v=PU6p7nsk9lo"
+                                    title="Kliknij, aby otworzyć w nowej karcie, w serwisie YouTube">I'm on fire (live
+                                    cover)</a></th>
+                            <td class="table__cell">Mumford&Sons</td>
+                            <td class="table__cell">not on album</td>
+                            <td class="table__cell">2014</td>
+                        </tr>
+                        <tr class="table__row">
+                            <th class="table__cell table__header" scope="row"><a rel="noreferrer noopener" target="_blank"
+                                    href="https://www.youtube.com/watch?v=1sOfsO7OqGI"
+                                    title="Kliknij, aby otworzyć w nowej karcie, w serwisie YouTube">Birthday</a></th>
+                            <td class="table__cell">Kings of Leon</td>
+                            <td class="table__cell">Come Around Sundown</td>
+                            <td class="table__cell">2010</td>
+                        </tr>
+                        <tr class="table__row">
+                            <th class="table__cell table__header" scope="row"><a rel="noreferrer noopener" target="_blank"
+                                    href="https://www.youtube.com/watch?v=cE6wxDqdOV0"
+                                    title="Kliknij, aby otworzyć w nowej karcie, w serwisie YouTube">Video Games</a>
+                            </th>
+                            <td class="table__cell">Lana Del Rey</td>
+                            <td class="table__cell">Born to Die</td>
+                            <td class="table__cell">2012</td>
+                        </tr>
+                    </tbody>
+                </table></section>
+            <p><button class="button__changeBackground">Jasne tło</button></p>
+        </article>
+    </main>
+    <footer class="footer">© Copyright 2999 by Małgorzata Worach - wszystkie prawa zastrzeżone.</footer>
+</body>
+
+</html>

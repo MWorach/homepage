@@ -1,0 +1,25 @@
+.table {
+    margin: auto;
+    border-collapse: collapse;
+    overflow-x: auto;
+}
+
+.table__cell {
+    border: 2px solid rgb(100, 97, 91);
+    padding: 10px;
+    text-align: center;
+    background-color: rgb(243, 236, 224);
+}
+
+.table__header {
+    background-color: rgba(209, 181, 149, 0.904);
+}
+
+.table__row:hover {
+    background: rgb(115, 105, 255);
+}
+
+.table__caption {
+    font-weight: bold;
+    padding: 5px;
+}

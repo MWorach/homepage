@@ -1,0 +1,58 @@
+html {
+    box-sizing: border-box;
+}
+
+*, ::after, ::before {
+    box-sizing: inherit;
+}
+
+.header {
+    color: rgb(57, 2, 97);
+}
+
+.body {
+    max-width: 900px;
+    background: rgb(253 251 248 / 90%);
+    margin: auto;
+    font-family: 'Lato', sans-serif;
+    line-height: 1.5;
+    font-size: 16px;
+}
+
+.lightBackground {
+    background: rgb(230, 228, 227);
+}
+
+.photo {
+    border: inset 2px rgb(57, 2, 97);
+    border-radius: 50px;
+    text-align: center;
+}
+
+.hiddenPhoto {
+    visibility: hidden;
+}
+
+.footer {
+    text-align: center;
+    padding: 10px;
+    font-size: 13px;
+    font-style: italic;
+}
+
+.button__changeBackground {
+    border-radius: 20px;
+    padding: 10px;
+    color: rgb(57, 2, 97);
+    outline: none;
+    font-weight: 700;
+}
+
+.button__hidePhoto {
+    border-radius: 20px;
+    padding: 10px;
+    color: rgb(57, 2, 97);
+    outline: none;
+    font-weight: 700;
+}
+

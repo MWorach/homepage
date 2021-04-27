@@ -1,0 +1,30 @@
+.navigation {
+    border: 4px dotted black;
+    background-color: rgb(243, 236, 224);
+    border-radius: 35px;
+}
+
+.navigation__header {
+    padding-left: 15px;
+}
+
+.navigation__link {
+    padding: 10px;
+    margin: 5px;
+    text-decoration: none;
+    color: indigo;
+}
+
+.navigation__link:hover {
+    color: slateblue;
+    outline: none;
+}
+
+.navigation__list {
+    list-style-type: none;
+    padding: 0;
+}
+
+.navigation__listItem {
+    display: inline-block;
+}
