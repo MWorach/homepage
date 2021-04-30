@@ -6,13 +6,18 @@ html {
     box-sizing: inherit;
 }
 
-.header {
-    color: rgb(57, 2, 97);
+.body__homepagePicture {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: auto;
+    border-radius: 200px;
 }
 
 .body {
     max-width: 900px;
     background: rgb(253 251 248 / 90%);
+    color: #222;
     margin: auto;
     font-family: 'Lato', sans-serif;
     line-height: 1.5;
@@ -23,10 +28,16 @@ html {
     background: rgb(230, 228, 227);
 }
 
-.photo {
-    border: inset 2px rgb(57, 2, 97);
-    border-radius: 50px;
-    text-align: center;
+.body__container {
+    display: flex;
+    align-items: center;
+}
+
+.body__photo {
+    border: inset 1px;
+    box-shadow: 2px 0px 7px;
+    border-radius: 100px;
+    margin: 10px;
 }
 
 .hiddenPhoto {
@@ -43,7 +54,8 @@ html {
 .button__changeBackground {
     border-radius: 20px;
     padding: 10px;
-    color: rgb(57, 2, 97);
+    margin-left: 10px;
+    color: #222;
     outline: none;
     font-weight: 700;
 }
@@ -51,8 +63,7 @@ html {
 .button__hidePhoto {
     border-radius: 20px;
     padding: 10px;
-    color: rgb(57, 2, 97);
+    color: #222;
     outline: none;
     font-weight: 700;
 }
-

@@ -1,30 +1,27 @@
 .navigation {
-    border: 4px dotted black;
-    background-color: rgb(243, 236, 224);
-    border-radius: 35px;
+    max-width:400px;
+    border-radius: 25px;
+    padding-top: 5px;
+  
 }
 
 .navigation__header {
-    padding-left: 15px;
+    padding-left: 20px;
+    font-size: 23px;
 }
 
 .navigation__link {
-    padding: 10px;
-    margin: 5px;
+    padding: 25px;
     text-decoration: none;
-    color: indigo;
+    color: rgb(1, 104, 104);
 }
 
 .navigation__link:hover {
-    color: slateblue;
+    color: teal;
     outline: none;
 }
 
 .navigation__list {
     list-style-type: none;
     padding: 0;
-}
-
-.navigation__listItem {
-    display: inline-block;
 }

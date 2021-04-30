@@ -1,7 +1,7 @@
 console.log("Cześć!");
 
 let button__hidePhoto = document.querySelector(".button__hidePhoto");
-let photo = document.querySelector(".photo");
+let photo = document.querySelector(".js-photo");
 let displayImageText = "Wyświetl zdjęcie";
 let hiddenImageText = "Schowaj zdjęcie";
 

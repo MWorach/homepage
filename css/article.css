@@ -1,10 +1,10 @@
 .article {
-    border: 4px dotted black;
-    background-color: rgb(243, 236, 224);
+    border: 1px solid #222;;
+    background-color: rgb(241, 216, 226);
     border-radius: 80px;
     padding: 20px;
 }
 
 .article__paragraph--ZSRR {
-    color: rgb(57, 2, 97);
+    color: rgb(1, 104, 104);
 }
