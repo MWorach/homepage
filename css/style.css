@@ -16,7 +16,7 @@ html {
 
 .body {
     max-width: 900px;
-    background: rgb(253 251 248 / 90%);
+    background:rgb(230, 228, 227);
     color: #222;
     margin: auto;
     font-family: 'Lato', sans-serif;
@@ -25,7 +25,7 @@ html {
 }
 
 .lightBackground {
-    background: rgb(230, 228, 227);
+    background: #fff;
 }
 
 .body__container {
