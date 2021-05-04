@@ -6,4 +6,4 @@ https://mworach.github.io/homepage/
 
 ## Description:
 
-Website created as a first project on my way of learning frontend programming.
+Website created as a first project on my way of learning frontend.
